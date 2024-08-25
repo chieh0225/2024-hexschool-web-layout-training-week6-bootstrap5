@@ -1,0 +1,42 @@
+form {
+  width: 276px;
+  @include pad {
+    display: flex;
+    width: 100%;
+  }
+}
+
+.search {
+  color: $neutral-300;
+  padding-right: 40px; /* 增加 padding 以騰出空間給圖標 */
+  @include pad {
+    margin-top: 24px;
+  }
+}
+
+.search-btn {
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+}
+
+.search-btn svg {
+  pointer-events: none; /* 防止 SVG 阻擋點擊事件 */
+}
+
+.nav-btn {
+  @include pad {
+    display: flex;
+    width: 100%;
+  }
+}
+.btn-w-100 {
+  @include pad {
+    width: 100%;
+  }
+}

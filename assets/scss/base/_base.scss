@@ -1,0 +1,55 @@
+.eng-font {
+  font-family: "Newsreader", sans-serif;
+  font-weight: 700;
+}
+
+picture {
+  max-width: 100%;
+  height: auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  // text-decoration: none; //已設定 $link-decoration: none
+  color: inherit;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  // margin-bottom: 0;
+  letter-spacing: 0.1em;
+}
+
+p {
+  // margin-bottom: 0;
+  letter-spacing: 0.05em; //em 以目前 p 標籤的文字大小做計算
+}
+
+.w-404 {
+  width: 45%;
+  @include pad {
+    width: 100%;
+  }
+}
+.w-232 {
+  width: 232px;
+}
+.w-47 {
+  width: 47px;
+}
+
+.h-236 {
+  height: 236px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}

@@ -1,0 +1,152 @@
+.theme-card {
+  border-radius: 20px 0 20px 0;
+  overflow: hidden; //將超過區塊元素的圖片隱藏
+  position: relative;
+  &::before {
+    content: ""; //使用偽元素記得要加上 content
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba($color: #212529, $alpha: 0.4);
+    transition: opacity 0.5s;
+  }
+  &:hover::before {
+    opacity: 1;
+  }
+}
+
+.badge-custom {
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.btn-arrow-custom {
+  padding: 4px 16px;
+}
+
+.hito-content {
+  overflow: hidden;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 217px;
+    height: 73px;
+    background-image: url("../images/2024-week6/bg-1.png");
+    background-size: cover; // 確保背景圖片的顯示效果
+    @include pad {
+      display: none;
+    }
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    right: -32px;
+    bottom: 0;
+    display: block;
+    width: 300px;
+    height: 188px;
+    background-image: url("../images/2024-week6/bg-2.png");
+    background-size: cover; // 確保背景圖片的顯示效果
+    @include pad {
+      right: -48px;
+      width: 160px;
+      height: 96px;
+      background-image: url("../images/2024-week6/bg-2-sm.png");
+    }
+  }
+}
+
+.nav-link {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+
+.barhopping-pic-1 {
+  display: block;
+  overflow: hidden; /* 確保圖片會被圓角裁剪 */
+  border-radius: 20px 0px 4px 20px;
+  @include pad {
+    border-radius: 4px;
+  }
+}
+.barhopping-pic-1 img,
+.barhopping-pic-4 img {
+  display: block; /* 確保圖片的顯示屬性 */
+  border-radius: inherit; /* 繼承父元素的圓角 */
+}
+.barhopping-pic-2,
+.barhopping-pic-3 {
+  display: block;
+  overflow: hidden;
+  border-radius: 4px;
+}
+.barhopping-pic-2 img,
+.barhopping-pic-3 img {
+  display: block;
+  border-radius: inherit;
+}
+.barhopping-pic-4 {
+  display: block;
+  overflow: hidden; /* 確保圖片會被圓角裁剪 */
+  border-radius: 0px 20px 20px 0px;
+  @include pad {
+    border-radius: 4px;
+  }
+}
+
+.bg-hover-secondary-100:hover {
+  background-color: $accent-100 !important;
+}
+
+.aside-box-shadow {
+  box-shadow: 0px 2px 8px rgb(110, 107, 103, 0.08);
+}
+
+.text-truncate a {
+  @include mobile {
+    max-width: 292px;
+  }
+}
+.text-truncate h5 {
+  @include mobile-small {
+    font-size: $h6-font-size;
+    font-weight: 700;
+    max-width: $grid-columns * 0.25; // 這裡的 1 / 4 代表 col-3
+  }
+}
+.text-truncate a,
+.text-truncate h5 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text-truncate a:hover,
+.text-truncate a:active,
+.text-truncate h5:hover,
+.text-truncate h5:active {
+  color: $accent-200 !important;
+}
+
+.taste-life-title {
+  font-size: 52px;
+  @include mobile-small {
+    font-size: $h1-font-size;
+  }
+}
+
+.life-images {
+  height: 236px;
+  background-size: cover;
+}
+
+.mt-negative {
+  margin-top: -27px;
+}

@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <div class="container gx-lg-0">
+      <div class="my-lg-10 rounded-3 position-relative">
+        <picture>
+          <source
+            media="(min-width: 992px)"
+            srcset="../assets/images/2024-week6/banner.png"
+          />
+          <img
+            src="../assets/images/2024-week6/banner-sm.png"
+            alt=""
+            class="w-100"
+          />
+        </picture>
+        <div
+          class="container-fluid gx-lg-0 ms-lg-9 py-5 position-absolute top-50 translate-middle-y text-white w-100"
+        >
+          <h3 class="fs-lg-5 fs-6 mb-lg-3 mb-1">獻給新世代的生活風格誌</h3>
+          <h2 class="fs-lg-1 fs-3 mb-lg-5 mb-4">一起探索生活的無限可能</h2>
+          <button
+            class="btn btn-secondary-200 text-white fs-lg-5"
+            type="button"
+          >
+            馬上訂閱<i class="bi bi-arrow-right ms-2"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-lg-10 py-8">
+      <h2 class="fs-lg-2 fs-4 mb-5">熱門主題</h2>
+      <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1 gy-5">
+        <div class="col">
+          <div class="theme-card position-relative">
+            <h5
+              class="text-white position-absolute top-50 start-50 translate-middle"
+            >
+              城市漫遊者
+            </h5>
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                srcset="../assets/images/2024-week6/theme-1.png"
+              />
+              <img
+                src="../assets/images/2024-week6/theme-1-sm.png"
+                alt=""
+                class="w-100"
+              />
+            </picture>
+          </div>
+        </div>
+        <div class="col">
+          <div class="theme-card">
+            <h5
+              class="text-white position-absolute top-50 start-50 translate-middle"
+            >
+              秘境尋蹤人
+            </h5>
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                srcset="../assets/images/2024-week6/theme-3.png"
+              />
+              <img
+                src="../assets/images/2024-week6/theme-3-sm.png"
+                alt=""
+                class="w-100"
+              />
+            </picture>
+          </div>
+        </div>
+        <div class="col">
+          <div class="theme-card">
+            <h5
+              class="text-white position-absolute top-50 start-50 translate-middle"
+            >
+              品味設計家
+            </h5>
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                srcset="../assets/images/2024-week6/theme-5.png"
+              />
+              <img
+                src="../assets/images/2024-week6/theme-5-sm.png"
+                alt=""
+                class="w-100"
+              />
+            </picture>
+          </div>
+        </div>
+        <div class="col">
+          <div class="theme-card">
+            <h5
+              class="text-white position-absolute top-50 start-50 translate-middle"
+            >
+              美食探險記
+            </h5>
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                srcset="../assets/images/2024-week6/theme-8.png"
+              />
+              <img
+                src="../assets/images/2024-week6/theme-8-sm.png"
+                alt=""
+                class="w-100"
+              />
+            </picture>
+          </div>
+        </div>
+        <div class="col">
+          <div class="theme-card">
+            <h5
+              class="text-white position-absolute top-50 start-50 translate-middle"
+            >
+              美學建築誌
+            </h5>
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                srcset="../assets/images/2024-week6/theme-2.png"
+              />
+              <img
+                src="../assets/images/2024-week6/theme-2-sm.png"
+                alt=""
+                class="w-100"
+              />
+            </picture>
+          </div>
+        </div>
+        <div class="col">
+          <div class="theme-card">
+            <h5
+              class="text-white position-absolute top-50 start-50 translate-middle"
+            >
+              慢活生活行
+            </h5>
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                srcset="../assets/images/2024-week6/theme-4.png"
+              />
+              <img
+                src="../assets/images/2024-week6/theme-4-sm.png"
+                alt=""
+                class="w-100"
+              />
+            </picture>
+          </div>
+        </div>
+        <div class="col">
+          <div class="theme-card">
+            <h5
+              class="text-white position-absolute top-50 start-50 translate-middle"
+            >
+              工藝匠心賞
+            </h5>
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                srcset="../assets/images/2024-week6/theme-6.png"
+              />
+              <img
+                src="../assets/images/2024-week6/theme-6-sm.png"
+                alt=""
+                class="w-100"
+              />
+            </picture>
+          </div>
+        </div>
+        <div class="col">
+          <div class="theme-card">
+            <h5
+              class="text-white position-absolute top-50 start-50 translate-middle"
+            >
+              時尚先鋒派
+            </h5>
+            <picture>
+              <source
+                media="(min-width: 992px)"
+                srcset="../assets/images/2024-week6/theme-7.png"
+              />
+              <img
+                src="../assets/images/2024-week6/theme-7-sm.png"
+                alt=""
+                class="w-100"
+              />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 精選文章 -->
+    <div class="container py-lg-10 py-8">
+      <div class="row overflow-hidden">
+        <!-- 標題 + 按鈕 -->
+        <div class="col-lg-4">
+          <div class="d-flex flex-column justify-content-between h-100">
+            <h2 class="fs-lg-2 fs-4 mb-5">精選文章</h2>
+            <div class="d-lg-block d-none">
+              <div class="d-flex justify-content-between w-47 mb-32">
+                <span>1</span><span class="text-gray-300">/</span><span>5</span>
+              </div>
+              <div
+                class="d-flex justify-content-between align-items-center w-232"
+              >
+                <button class="btn btn-outline-gray-400 btn-arrow-custom">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M22.4999 12.0002C22.4999 11.8013 22.4209 11.6105 22.2802 11.4699C22.1396 11.3292 21.9488 11.2502 21.7499 11.2502H4.06038L8.78088 6.53122C8.85061 6.46148 8.90592 6.3787 8.94366 6.28759C8.9814 6.19648 9.00082 6.09883 9.00082 6.00021C9.00082 5.9016 8.9814 5.80395 8.94366 5.71284C8.90592 5.62173 8.85061 5.53895 8.78088 5.46921C8.71114 5.39948 8.62836 5.34417 8.53725 5.30643C8.44614 5.26869 8.34849 5.24927 8.24988 5.24927C8.15126 5.24927 8.05361 5.26869 7.9625 5.30643C7.87139 5.34417 7.78861 5.39948 7.71888 5.46921L1.71888 11.4692C1.64903 11.5389 1.59362 11.6216 1.55581 11.7128C1.518 11.8039 1.49854 11.9016 1.49854 12.0002C1.49854 12.0989 1.518 12.1965 1.55581 12.2877C1.59362 12.3788 1.64903 12.4615 1.71888 12.5312L7.71888 18.5312C7.78861 18.6009 7.87139 18.6563 7.9625 18.694C8.05361 18.7317 8.15126 18.7512 8.24988 18.7512C8.34849 18.7512 8.44614 18.7317 8.53725 18.694C8.62836 18.6563 8.71114 18.6009 8.78088 18.5312C8.85061 18.4615 8.90592 18.3787 8.94366 18.2876C8.9814 18.1965 9.00082 18.0988 9.00082 18.0002C9.00082 17.9016 8.9814 17.8039 8.94366 17.7128C8.90592 17.6217 8.85061 17.5389 8.78088 17.4692L4.06038 12.7502H21.7499C21.9488 12.7502 22.1396 12.6712 22.2802 12.5305C22.4209 12.3899 22.4999 12.1991 22.4999 12.0002Z"
+                      fill="#6C757D"
+                    />
+                  </svg>
+                </button>
+                <div>
+                  <hr
+                    class="border-1 border-gray-400 opacity-100"
+                    style="width: 80px"
+                  />
+                </div>
+                <button class="btn btn-outline-gray-400 btn-arrow-custom">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M1.5 12.0002C1.5 11.8013 1.57902 11.6105 1.71967 11.4699C1.86032 11.3292 2.05109 11.2502 2.25 11.2502H19.9395L15.219 6.53122C15.0782 6.39039 14.9991 6.19938 14.9991 6.00021C14.9991 5.80105 15.0782 5.61004 15.219 5.46921C15.3598 5.32838 15.5508 5.24927 15.75 5.24927C15.9492 5.24927 16.1402 5.32838 16.281 5.46921L22.281 11.4692C22.3508 11.5389 22.4063 11.6216 22.4441 11.7128C22.4819 11.8039 22.5013 11.9016 22.5013 12.0002C22.5013 12.0989 22.4819 12.1965 22.4441 12.2877C22.4063 12.3788 22.3508 12.4615 22.281 12.5312L16.281 18.5312C16.1402 18.672 15.9492 18.7512 15.75 18.7512C15.5508 18.7512 15.3598 18.672 15.219 18.5312C15.0782 18.3904 14.9991 18.1994 14.9991 18.0002C14.9991 17.8011 15.0782 17.61 15.219 17.4692L19.9395 12.7502H2.25C2.05109 12.7502 1.86032 12.6712 1.71967 12.5305C1.57902 12.3899 1.5 12.1991 1.5 12.0002Z"
+                      fill="#6C757D"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 內容 -->
+        <div class="col-lg-8">
+          <div
+            class="d-lg-flex d-block justify-content-lg-between align-items-lg-stretch"
+          >
+            <div class="w-404 border-bottom border-gray-500">
+              <picture>
+                <source
+                  media="(min-width: 992px)"
+                  srcset="../assets/images/2024-week6/articles-1.png"
+                />
+                <img
+                  src="../assets/images/2024-week6/articles-1-sm.png"
+                  alt=""
+                  class="w-100 radius-sm"
+                />
+              </picture>
+              <div>
+                <h5 class="mt-5 mb-1">私人島嶼的露營奇遇記</h5>
+                <p class="text-gray-400">
+                  遠離塵囂,用全新的眼光重塑生活的舒適本味。徜徉在環山綠野間,在這處隱世私家別墅裡,盡情領略池畔優閒時光,任林間微風撫面,聆聽花鳥嘶啞之音,重拾內心深處的寧靜安詳...
+                </p>
+                <a href="#" class="fs-5 link-secondary-200 my-5">Read More</a>
+              </div>
+            </div>
+            <div class="w-404 border-bottom border-gray-500 d-lg-block d-none">
+              <picture>
+                <source
+                  media="(min-width: 992px)"
+                  srcset="../assets/images/2024-week6/articles-2.png"
+                />
+                <img
+                  src="../assets/images/2024-week6/articles-2-sm.png"
+                  alt=""
+                  class="w-100 radius-sm"
+                />
+              </picture>
+              <div>
+                <h5 class="mt-lg-5 mb-lg-1">窺探米其林三星主廚的絕密手藝</h5>
+                <p class="text-gray-400">
+                  在這間隱世餐廳,來一場味蕾與靈魂的盛宴。幽微燈火下,透過巨匠大師的獨門料理,領略食材中蘊藏的大自然馨香脈絡。營造只屬於你我的私密小宇宙,沉浸其中,品嘗人生至臻至美的風味...
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <a href="#" class="fs-5 link-secondary-200 my-lg-5"
+                    >Read More</a
+                  >
+                  <span
+                    class="badge bg-primary-300 text-primary-400 badge-custom"
+                    >會員專屬</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="d-lg-none d-flex justify-content-between align-items-center mt-lg-0 mt-7"
+          >
+            <div class="d-flex justify-content-between w-47">
+              <span>1</span><span class="text-gray-300">/</span><span>5</span>
+            </div>
+            <div
+              class="d-flex justify-content-between align-items-center w-232"
+            >
+              <button class="btn btn-outline-gray-400 btn-arrow-custom">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M22.4999 12.0002C22.4999 11.8013 22.4209 11.6105 22.2802 11.4699C22.1396 11.3292 21.9488 11.2502 21.7499 11.2502H4.06038L8.78088 6.53122C8.85061 6.46148 8.90592 6.3787 8.94366 6.28759C8.9814 6.19648 9.00082 6.09883 9.00082 6.00021C9.00082 5.9016 8.9814 5.80395 8.94366 5.71284C8.90592 5.62173 8.85061 5.53895 8.78088 5.46921C8.71114 5.39948 8.62836 5.34417 8.53725 5.30643C8.44614 5.26869 8.34849 5.24927 8.24988 5.24927C8.15126 5.24927 8.05361 5.26869 7.9625 5.30643C7.87139 5.34417 7.78861 5.39948 7.71888 5.46921L1.71888 11.4692C1.64903 11.5389 1.59362 11.6216 1.55581 11.7128C1.518 11.8039 1.49854 11.9016 1.49854 12.0002C1.49854 12.0989 1.518 12.1965 1.55581 12.2877C1.59362 12.3788 1.64903 12.4615 1.71888 12.5312L7.71888 18.5312C7.78861 18.6009 7.87139 18.6563 7.9625 18.694C8.05361 18.7317 8.15126 18.7512 8.24988 18.7512C8.34849 18.7512 8.44614 18.7317 8.53725 18.694C8.62836 18.6563 8.71114 18.6009 8.78088 18.5312C8.85061 18.4615 8.90592 18.3787 8.94366 18.2876C8.9814 18.1965 9.00082 18.0988 9.00082 18.0002C9.00082 17.9016 8.9814 17.8039 8.94366 17.7128C8.90592 17.6217 8.85061 17.5389 8.78088 17.4692L4.06038 12.7502H21.7499C21.9488 12.7502 22.1396 12.6712 22.2802 12.5305C22.4209 12.3899 22.4999 12.1991 22.4999 12.0002Z"
+                    fill="#6C757D"
+                  />
+                </svg>
+              </button>
+              <div>
+                <hr
+                  class="border-1 border-gray-400 opacity-100"
+                  style="width: 80px"
+                />
+              </div>
+              <button class="btn btn-outline-gray-400 btn-arrow-custom">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M1.5 12.0002C1.5 11.8013 1.57902 11.6105 1.71967 11.4699C1.86032 11.3292 2.05109 11.2502 2.25 11.2502H19.9395L15.219 6.53122C15.0782 6.39039 14.9991 6.19938 14.9991 6.00021C14.9991 5.80105 15.0782 5.61004 15.219 5.46921C15.3598 5.32838 15.5508 5.24927 15.75 5.24927C15.9492 5.24927 16.1402 5.32838 16.281 5.46921L22.281 11.4692C22.3508 11.5389 22.4063 11.6216 22.4441 11.7128C22.4819 11.8039 22.5013 11.9016 22.5013 12.0002C22.5013 12.0989 22.4819 12.1965 22.4441 12.2877C22.4063 12.3788 22.3508 12.4615 22.281 12.5312L16.281 18.5312C16.1402 18.672 15.9492 18.7512 15.75 18.7512C15.5508 18.7512 15.3598 18.672 15.219 18.5312C15.0782 18.3904 14.9991 18.1994 14.9991 18.0002C14.9991 17.8011 15.0782 17.61 15.219 17.4692L19.9395 12.7502H2.25C2.05109 12.7502 1.86032 12.6712 1.71967 12.5305C1.57902 12.3899 1.5 12.1991 1.5 12.0002Z"
+                    fill="#6C757D"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 母親節 -->
+    <div class="bg-primary-200">
+      <div class="py-lg-10 py-8 position-relative overflow-hidden container">
+        <div class="hito-content">
+          <div class="d-flex flex-column align-items-center">
+            <p class="text-lg-primary-400 text-secondary-200 fs-lg-4 fs-6">
+              \ 母親節強檔活動 /
+            </p>
+            <p class="text-gray-500 py-4 fs-lg-2 fs-4">家庭訂閱方案限時 7 折</p>
+            <div class="text-gray-400 mb-7">
+              <p class="mb-3">
+                <i class="bi bi-check me-1"></i>每月最新文章無限閱讀
+              </p>
+              <p class="mb-3">
+                <i class="bi bi-check me-1"></i>專屬會員限定內容
+              </p>
+              <p class="mb-3"><i class="bi bi-check me-1"></i>定期電子報</p>
+              <p class="mb-3"><i class="bi bi-check me-1"></i>年度精選禮物</p>
+              <p class="mb-3">
+                <i class="bi bi-check me-1"></i>24 /7 優先客戶服務
+              </p>
+              <p><i class="bi bi-check me-1"></i>為每個成員量身打造專屬行程</p>
+            </div>
+            <button
+              class="btn btn-secondary-200 px-lg-5 py-lg-3 text-white"
+              type="button"
+            >
+              我想了解
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 大家都在看 -->
+    <div class="container py-lg-10 py-8">
+      <div class="row">
+        <h2 class="fs-lg-2 fs-4 mb-lg-7 mb-5">大家都在看</h2>
+
+        <aside class="col-lg-3 d-lg-block d-none">
+          <div class="bg-white aside-box-shadow p-5 h-100">
+            <div class="navbar p-0 flex-column align-items-start">
+              <div class="nav-activity-name w-100 h-100">
+                <ul class="navbar-nav fw-bold">
+                  <li class="nav-item aside-nav-item">
+                    <a
+                      class="nav-link active bg-secondary-100 link-dark"
+                      aria-current="page"
+                      href="#"
+                    >
+                      ． 酒精路跑地圖
+                    </a>
+                  </li>
+                  <li class="nav-item aside-nav-item">
+                    <a
+                      class="nav-link active bg-hover-secondary-100 link-dark"
+                      href="#"
+                    >
+                      ． 台北拉麵圖鑑</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active bg-hover-secondary-100 link-dark"
+                      aria-current="page"
+                      href="#"
+                    >
+                      ． 海島自由行
+                    </a>
+                  </li>
+                  <li class="nav-item aside-nav-item">
+                    <a
+                      class="nav-link active bg-hover-secondary-100 link-dark"
+                      href="#"
+                    >
+                      ． 短天數出國推薦</a
+                    >
+                  </li>
+                  <li class="nav-item aside-nav-item">
+                    <a
+                      class="nav-link active bg-hover-secondary-100 link-dark"
+                      href="#"
+                    >
+                      ． 週末露營趣</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+        <div class="col-lg-9 d-flex flex-column align-items-center">
+          <div class="bg-white p-md-7 p-1">
+            <div class="p-lg-5 p-md-3 p-0">
+              <h4 class="fs-lg-4 fs-5 mb-lg-5 mb-2">酒精路跑地圖</h4>
+              <div class="text-gray-500 text-truncate">
+                <a href="#" class="text-gray-500 d-block mb-lg-4 mb-1"
+                  >｜城市酒吧人氣榜,盤點當紅熱門酒吧</a
+                >
+                <a href="#" class="text-gray-500 d-block mb-lg-4 mb-1">
+                  ｜你要的調酒師在這裡！五月全台酒吧客座活動整理
+                </a>
+                <a href="#" class="text-gray-500 d-block mb-lg-4 mb-1"
+                  >｜台南老宅手工酒藏,尋味百年人文釀意</a
+                >
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-center my-3">
+              <picture class="barhopping-pic-1">
+                <source
+                  media="(min-width: 992px)"
+                  srcset="../assets/images/2024-week6/hots-1.png"
+                />
+                <img
+                  src="../assets/images/2024-week6/hots-1-sm.png"
+                  alt=""
+                  class="w-100"
+                />
+              </picture>
+              <picture class="barhopping-pic-2">
+                <source
+                  media="(min-width: 992px)"
+                  srcset="../assets/images/2024-week6/hots-2.png"
+                />
+                <img
+                  src="../assets/images/2024-week6/hots-2-sm.png"
+                  alt=""
+                  class="w-100 d-lg-block d-none"
+                />
+              </picture>
+              <picture class="barhopping-pic-3">
+                <source
+                  media="(min-width: 992px)"
+                  srcset="../assets/images/2024-week6/hots-3.png"
+                />
+                <img
+                  src="../assets/images/2024-week6/hots-3-sm.png"
+                  alt=""
+                  class="w-100 d-lg-block d-none"
+                />
+              </picture>
+              <picture class="barhopping-pic-4">
+                <source
+                  media="(min-width: 992px)"
+                  srcset="../assets/images/2024-week6/hots-4.png"
+                />
+                <img
+                  src="../assets/images/2024-week6/hots-4-sm.png"
+                  alt=""
+                  class="w-100 d-lg-block d-none"
+                />
+              </picture>
+            </div>
+
+            <div
+              class="d-flex justify-content-lg-between align-items-center flex-lg-row flex-column p-lg-5 p-0"
+            >
+              <div class="d-flex gap-1 py-1">
+                <span class="badge bg-primary-300 text-primary-400 badge-custom"
+                  >#夜貓行程</span
+                >
+                <span class="badge bg-primary-300 text-primary-400 badge-custom"
+                  >#barhopping</span
+                >
+                <span class="badge bg-primary-300 text-primary-400 badge-custom"
+                  >#全台酒吧</span
+                >
+              </div>
+
+              <a href="#" class="link-secondary-200">
+                <div class="d-flex align-items-center py-1">
+                  <h5 class="me-2">View More</h5>
+                  <i class="bi bi-arrow-right fs-4"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 品味生活 -->
+    <div class="container py-lg-10 py-8">
+      <div class="d-flex justify-content-between align-items-start">
+        <h2 class="fs-lg-2 fs-4 mb-lg-7 mb-5">品味生活</h2>
+        <div
+          class="d-lg-flex justify-content-between align-items-center w-232 d-none"
+        >
+          <button class="btn btn-outline-gray-400 btn-arrow-custom">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M22.4999 12.0002C22.4999 11.8013 22.4209 11.6105 22.2802 11.4699C22.1396 11.3292 21.9488 11.2502 21.7499 11.2502H4.06038L8.78088 6.53122C8.85061 6.46148 8.90592 6.3787 8.94366 6.28759C8.9814 6.19648 9.00082 6.09883 9.00082 6.00021C9.00082 5.9016 8.9814 5.80395 8.94366 5.71284C8.90592 5.62173 8.85061 5.53895 8.78088 5.46921C8.71114 5.39948 8.62836 5.34417 8.53725 5.30643C8.44614 5.26869 8.34849 5.24927 8.24988 5.24927C8.15126 5.24927 8.05361 5.26869 7.9625 5.30643C7.87139 5.34417 7.78861 5.39948 7.71888 5.46921L1.71888 11.4692C1.64903 11.5389 1.59362 11.6216 1.55581 11.7128C1.518 11.8039 1.49854 11.9016 1.49854 12.0002C1.49854 12.0989 1.518 12.1965 1.55581 12.2877C1.59362 12.3788 1.64903 12.4615 1.71888 12.5312L7.71888 18.5312C7.78861 18.6009 7.87139 18.6563 7.9625 18.694C8.05361 18.7317 8.15126 18.7512 8.24988 18.7512C8.34849 18.7512 8.44614 18.7317 8.53725 18.694C8.62836 18.6563 8.71114 18.6009 8.78088 18.5312C8.85061 18.4615 8.90592 18.3787 8.94366 18.2876C8.9814 18.1965 9.00082 18.0988 9.00082 18.0002C9.00082 17.9016 8.9814 17.8039 8.94366 17.7128C8.90592 17.6217 8.85061 17.5389 8.78088 17.4692L4.06038 12.7502H21.7499C21.9488 12.7502 22.1396 12.6712 22.2802 12.5305C22.4209 12.3899 22.4999 12.1991 22.4999 12.0002Z"
+                fill="#6C757D"
+              />
+            </svg>
+          </button>
+          <div>
+            <hr
+              class="border-1 border-gray-400 opacity-100"
+              style="width: 80px"
+            />
+          </div>
+          <button class="btn btn-outline-gray-400 btn-arrow-custom">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M1.5 12.0002C1.5 11.8013 1.57902 11.6105 1.71967 11.4699C1.86032 11.3292 2.05109 11.2502 2.25 11.2502H19.9395L15.219 6.53122C15.0782 6.39039 14.9991 6.19938 14.9991 6.00021C14.9991 5.80105 15.0782 5.61004 15.219 5.46921C15.3598 5.32838 15.5508 5.24927 15.75 5.24927C15.9492 5.24927 16.1402 5.32838 16.281 5.46921L22.281 11.4692C22.3508 11.5389 22.4063 11.6216 22.4441 11.7128C22.4819 11.8039 22.5013 11.9016 22.5013 12.0002C22.5013 12.0989 22.4819 12.1965 22.4441 12.2877C22.4063 12.3788 22.3508 12.4615 22.281 12.5312L16.281 18.5312C16.1402 18.672 15.9492 18.7512 15.75 18.7512C15.5508 18.7512 15.3598 18.672 15.219 18.5312C15.0782 18.3904 14.9991 18.1994 14.9991 18.0002C14.9991 17.8011 15.0782 17.61 15.219 17.4692L19.9395 12.7502H2.25C2.05109 12.7502 1.86032 12.6712 1.71967 12.5305C1.57902 12.3899 1.5 12.1991 1.5 12.0002Z"
+                fill="#6C757D"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 d-flex flex-column gap-md-6 gap-5 mb-lg-0 mb-5">
+          <p class="text-gray-400 fw-bolder taste-life-title">食.</p>
+          <picture>
+            <source
+              media="(min-width: 992px)"
+              srcset="../assets/images/2024-week6/life-1.png"
+            />
+            <img
+              src="../assets/images/2024-week6/life-1-sm.png"
+              alt=""
+              class="w-100 radius-sm"
+            />
+          </picture>
+          <div class="text-gray-500 text-truncate">
+            <h5 class="mb-lg-4 mb-1">｜米其林三星主廚的那些絕活傳奇</h5>
+            <h5 class="mb-lg-4 mb-1">｜探秘成都的地道川味秘技與魅力</h5>
+            <h5>｜義大利釀酒師對於酒的堅持執著</h5>
+          </div>
+          <a href="#" class="link-secondary-200">
+            <div class="d-flex align-items-center justify-content-center py-1">
+              <h5 class="me-2">View More</h5>
+              <i class="bi bi-arrow-right fs-4"></i>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 d-flex flex-column gap-md-6 gap-5 mb-lg-0 mb-5">
+          <p class="text-gray-400 fw-bolder taste-life-title">藝.</p>
+          <picture>
+            <source
+              media="(min-width: 992px)"
+              srcset="../assets/images/2024-week6/life-2.png"
+            />
+            <img
+              src="../assets/images/2024-week6/life-2-sm.png"
+              alt=""
+              class="w-100 radius-sm"
+            />
+          </picture>
+          <div class="text-gray-500 text-truncate">
+            <h5 class="mb-lg-4 mb-1">｜解構教主級時裝設計大師的獨特美學</h5>
+            <h5 class="mb-lg-4 mb-1">｜當代攝影師鏡頭中的光影離奇</h5>
+            <h5>｜帶你穿縮中世紀，夏季文藝復興展</h5>
+          </div>
+          <a href="#" class="link-secondary-200">
+            <div class="d-flex align-items-center justify-content-center py-1">
+              <h5 class="me-2">View More</h5>
+              <i class="bi bi-arrow-right fs-4"></i>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 d-flex flex-column gap-md-6 gap-5">
+          <p class="text-gray-400 fw-bolder taste-life-title">旅.</p>
+          <picture>
+            <source
+              media="(min-width: 992px)"
+              srcset="../assets/images/2024-week6/life-3.png"
+            />
+            <img
+              src="../assets/images/2024-week6/life-3-sm.png"
+              alt=""
+              class="w-100 radius-sm"
+            />
+          </picture>
+          <div class="text-gray-500 text-truncate">
+            <h5 class="mb-lg-4 mb-1">｜遠離喧囂,偶探巴塔哥尼亞終界</h5>
+            <h5 class="mb-lg-4 mb-1">｜東京深度六區,帶你細品極簡魅力</h5>
+            <h5>｜專賣奇珍異寶的東歐地下夜市</h5>
+          </div>
+          <a href="#" class="link-secondary-200">
+            <div class="d-flex align-items-center justify-content-center py-1">
+              <h5 class="me-2">View More</h5>
+              <i class="bi bi-arrow-right fs-4"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 生活提案 -->
+    <div class="container py-lg-10 py-8">
+      <div class="row align-items-lg-center">
+        <div class="col-lg-6 text-lg-start text-center mb-lg-0 mb-9">
+          <h5 class="text-gray-400 fs-lg-5 fs-6 mb-3">
+            今天又不知道要去哪裡了嗎？
+          </h5>
+          <h2
+            class="mb-lg-6 mb-5 fs-lg-2 fs-4 d-lg-block d-flex flex-column align-items-center"
+          >
+            <span class="eng-font mb-lg-0 mb-1">Vivre</span>
+            <span> 給你意想不到的生活風格提案</span>
+          </h2>
+          <button
+            class="btn btn-secondary-200 text-white fs-lg-5"
+            type="button"
+          >
+            馬上訂閱<i class="bi bi-arrow-right ms-2"></i>
+          </button>
+        </div>
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <ul class="row list-unstyled d-lg-flex">
+            <li class="col-lg-6 mt-lg-10">
+              <div class="position-relative">
+                <p
+                  class="position-absolute top-0 start-0 ms-3 translate-middle-y py-1 px-2 text-secondary-300 fw-bold bg-white border border-1 rounded-1 border-secondary-100"
+                >
+                  <i class="bi bi-play-fill me-1"></i>人氣行程
+                </p>
+                <picture>
+                  <source
+                    media="(min-width: 992px)"
+                    srcset="../assets/images/2024-week6/content-3.png"
+                  />
+                  <img
+                    src="../assets/images/2024-week6/content-3-sm.png"
+                    alt=""
+                    class="w-100 rounded-1 life-images"
+                  />
+                </picture>
+                <div
+                  class="text-primary-100 position-absolute bottom-0 start-0 z-1 w-100"
+                >
+                  <div
+                    class="d-flex justify-content-between align-items-center p-2"
+                  >
+                    <h6>親子露營要帶什麼？</h6>
+                    <i class="bi bi-arrow-right fs-4 lh-1"></i>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="col-lg-6 mt-lg-3 d-lg-block d-none">
+              <div class="position-relative">
+                <p
+                  class="position-absolute top-0 start-0 ms-3 translate-middle-y py-1 px-2 text-secondary-300 fw-bold bg-white border border-1 rounded-1 border-secondary-100"
+                >
+                  <i class="bi bi-play-fill me-1"></i>編輯推薦
+                </p>
+                <picture>
+                  <source
+                    media="(min-width: 992px)"
+                    srcset="../assets/images/2024-week6/projects-1.png"
+                  />
+                  <img
+                    src="../assets/images/2024-week6/projects-1.png"
+                    alt=""
+                    class="w-100 rounded-1 life-images"
+                  />
+                </picture>
+                <div
+                  class="text-primary-100 position-absolute bottom-0 start-0 z-1 w-100"
+                >
+                  <div
+                    class="d-flex justify-content-between align-items-center p-2"
+                  >
+                    <h6>山女孩的健行筆記</h6>
+                    <i class="bi bi-arrow-right fs-4 lh-1"></i>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="col-lg-6 mt-lg-7 d-lg-block d-none">
+              <div class="position-relative">
+                <p
+                  class="position-absolute top-0 start-0 ms-3 translate-middle-y py-1 px-2 text-secondary-300 fw-bold bg-white border border-1 rounded-1 border-secondary-100"
+                >
+                  <i class="bi bi-play-fill me-1"></i>編輯推薦
+                </p>
+                <picture>
+                  <source
+                    media="(min-width: 992px)"
+                    srcset="../assets/images/room.png"
+                  />
+                  <img
+                    src="../assets/images/room.png"
+                    alt=""
+                    class="w-100 rounded-1 life-images"
+                  />
+                </picture>
+                <div
+                  class="text-primary-100 position-absolute bottom-0 start-0 z-1 w-100"
+                >
+                  <div
+                    class="d-flex justify-content-between align-items-center p-2"
+                  >
+                    <h6>質感房間改造攻略！</h6>
+                    <i class="bi bi-arrow-right fs-4 lh-1"></i>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="col-lg-6 mt-negative d-lg-block d-none">
+              <div class="position-relative">
+                <p
+                  class="position-absolute top-0 start-0 ms-3 translate-middle-y py-1 px-2 text-secondary-300 fw-bold bg-white border border-1 rounded-1 border-secondary-100"
+                >
+                  <i class="bi bi-play-fill me-1"></i>熱門文章
+                </p>
+                <picture>
+                  <source
+                    media="(min-width: 992px)"
+                    srcset="../assets/images/2024-week6/projects-3.png"
+                  />
+                  <img
+                    src="../assets/images/2024-week6/projects-3.png"
+                    alt=""
+                    class="w-100 rounded-1 life-images"
+                  />
+                </picture>
+                <div
+                  class="text-primary-100 position-absolute bottom-0 start-0 z-1 w-100"
+                >
+                  <div
+                    class="d-flex justify-content-between align-items-center p-2"
+                  >
+                    <h6>適合溜小孩的海邊景點推薦</h6>
+                    <i class="bi bi-arrow-right fs-4 lh-1"></i>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
