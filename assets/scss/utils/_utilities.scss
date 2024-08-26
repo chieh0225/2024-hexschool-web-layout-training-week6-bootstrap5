@@ -11,32 +11,7 @@ $utilities: map-merge(
     "text-color": (
       property: color,
       class: text,
-      values: (
-        "primary": $primary,
-        "secondary": $secondary,
-
-        "primary-100": $primary-100,
-        "primary-200": $primary-200,
-        "primary-300": $primary-300,
-        "primary-400": $primary-400,
-
-        "secondary-100": $accent-100,
-        "secondary-200": $accent-200,
-        "secondary-300": $accent-300,
-
-        "gray-100": $neutral-100,
-        "gray-200": $neutral-200,
-        "gray-300": $neutral-300,
-        "gray-400": $neutral-400,
-        "gray-500": $neutral-500,
-
-        "success": $success,
-        "info": $info,
-        "warning": $warning,
-        "danger": $danger,
-        "light": $light,
-        "dark": $dark,
-      ),
+      values: $theme-colors,
       responsive: true,
       // 字體顏色響應式
     ),

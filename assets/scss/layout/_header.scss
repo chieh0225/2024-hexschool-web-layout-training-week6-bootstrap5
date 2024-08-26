@@ -1,3 +1,11 @@
+.navbar-border-bottom {
+  border-bottom: 1px solid $neutral-300 !important;
+
+  @include pad {
+    border-bottom: 0px !important;
+  }
+}
+
 form {
   width: 276px;
   @include pad {
@@ -5,10 +13,6 @@ form {
     width: 100%;
     margin-top: 24px;
   }
-}
-
-.search {
-  padding-right: 40px; /* 增加 padding 以騰出空間給圖標 */
 }
 
 .nav-btn {
