@@ -15,6 +15,10 @@ form {
   }
 }
 
+.search {
+  background: white !important;
+}
+
 .nav-btn {
   @include pad {
     display: flex;
