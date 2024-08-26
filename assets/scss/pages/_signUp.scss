@@ -1,0 +1,28 @@
+.sign-up-form {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  @include pad {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+
+.hr-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.hr-container::before {
+  content: "";
+  flex: 1;
+  border-top: 1px solid #ccc;
+}
+.hr-container span {
+  padding: 0 10px;
+  background: #fff;
+}
+.hr-container::after {
+  content: "";
+  flex: 1;
+  border-top: 1px solid #ccc;
+}
