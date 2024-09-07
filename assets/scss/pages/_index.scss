@@ -75,6 +75,19 @@
   padding-left: 16px;
 }
 
+.nav-activity-name button {
+  text-align: left;
+  line-height: 1 !important;
+  color: $gray-900 !important;
+  border-radius: 4px;
+  &:hover {
+    color: $accent-200 !important;
+  }
+  &:focus {
+    background: $accent-100 !important;
+  }
+}
+
 .barhopping-pic-1 {
   display: block;
   overflow: hidden; /* 確保圖片會被圓角裁剪 */
