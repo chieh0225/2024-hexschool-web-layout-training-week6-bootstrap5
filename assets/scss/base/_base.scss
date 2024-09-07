@@ -33,6 +33,10 @@ p {
   letter-spacing: 0.05em; //em 以目前 p 標籤的文字大小做計算
 }
 
+.object-fit {
+  object-fit: cover;
+}
+
 .w-404 {
   width: 45%;
   @include pad {

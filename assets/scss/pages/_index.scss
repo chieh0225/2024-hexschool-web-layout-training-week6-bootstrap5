@@ -28,6 +28,12 @@
   padding: 4px 16px;
 }
 
+.mothers-day {
+  @include mobile {
+    overflow: hidden;
+  }
+}
+
 .hito-content {
   overflow: hidden;
   &::before {
@@ -144,7 +150,7 @@
 
 .life-images {
   height: 236px;
-  background-size: cover;
+  object-fit: cover;
 }
 
 .mt-negative {

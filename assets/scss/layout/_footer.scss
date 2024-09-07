@@ -1,6 +1,8 @@
 .copyright {
   @include mobile {
-    padding-left: -12px;
-    padding-right: -12px;
+    // padding-left: -12px; // padding 不能設定負值
+    // padding-right: -12px; // padding 不能設定負值
+    padding-left: 0;
+    padding-right: 0;
   }
 }
