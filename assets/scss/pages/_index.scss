@@ -69,10 +69,12 @@
   }
 }
 
+.nav-pills .nav-link.active {
+  background-color: transparent;
+}
+
 .nav-link {
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 16px;
+  padding: 16px;
 }
 
 .nav-activity-name button {
