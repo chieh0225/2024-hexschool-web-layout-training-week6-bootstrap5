@@ -46,6 +46,7 @@
     height: 73px;
     background-image: url("../images/2024-week6/bg-1.png");
     background-size: cover; // 確保背景圖片的顯示效果
+    overflow: hidden;
     @include pad {
       display: none;
     }
@@ -60,6 +61,7 @@
     height: 188px;
     background-image: url("../images/2024-week6/bg-2.png");
     background-size: cover; // 確保背景圖片的顯示效果
+    overflow: hidden;
     @include pad {
       right: -48px;
       width: 160px;
