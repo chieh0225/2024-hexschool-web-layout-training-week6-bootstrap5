@@ -38,7 +38,7 @@ p {
 }
 
 .w-404 {
-  width: 45%;
+  width: 47%;
   @include pad {
     width: 100%;
   }
@@ -52,6 +52,9 @@ p {
 
 .h-236 {
   height: 236px;
+}
+.h-auto {
+  height: auto !important;
 }
 
 .mb-32 {
